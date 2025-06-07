@@ -3,12 +3,16 @@ import logo from '../Assets/logo.png';
 
 export default function SplashScreen({ onComplete }) {
   const [animate, setAnimate] = useState(false);
+  const [spin, setSpin] = useState(false);
 
   const handleClick = () => {
-    setAnimate(true);
+    setSpin(true); // trigger spin
     setTimeout(() => {
-      onComplete(); // call to switch to homepage
-    }, 1000); // wait for animation to finish
+      setAnimate(true); // start sliding
+  }, 200);
+    setTimeout(() => {
+      onComplete();
+    }, 1000); 
   };
 
   return (
@@ -21,12 +25,21 @@ export default function SplashScreen({ onComplete }) {
   <div
     className="h-1/2 bg-gradient-to-t from-[rgb(106,49,156)] to-[rgb(156,136,207)] transform transition-transform duration-1000 ease-in-out"
     style={{ transform: animate ? 'translateY(100%)' : 'translateY(0)' }}
-  > <img
-      src={logo}
-      alt="Logo"
-      onClick={handleClick}
-      className="w-48 h-48 hover:scale-125  hover:shadow-white shadow-fancy rounded-full absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 cursor-pointer transition-transform duration-500 ease-in-out"
-    /></div>
+  > <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2">
+          <div
+            onClick={handleClick}
+            className={`w-48 h-48 rounded-full cursor-pointer transition-transform duration-500 
+            ease-in-out hover:scale-125 hover:shadow-white shadow-fancy 
+            ${spin ? 'animate-rotate-once' : ''}`}
+          >
+            <img
+              src={logo}
+              alt="Logo"
+              className="w-full h-full object-contain rounded-full"
+            />
+          </div>
+        </div>
+        </div>
 </div>
 
 
