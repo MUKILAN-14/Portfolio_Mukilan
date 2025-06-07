@@ -2,7 +2,7 @@
   "name": "official_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MUKILAN-14.github.io/Portfolio_Mukilan",
+  "homepage": "https://MUKILAN-14.github.io/Portfolio_Mukilan/tree/main/public",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
