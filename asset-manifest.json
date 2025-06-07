@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio_Mukilan/static/css/main.611f5aef.css",
-    "main.js": "/Portfolio_Mukilan/static/js/main.66e22f91.js",
+    "main.css": "/Portfolio_Mukilan/static/css/main.c3c869b9.css",
+    "main.js": "/Portfolio_Mukilan/static/js/main.ff10a9ec.js",
+    "static/media/Avatar.png": "/Portfolio_Mukilan/static/media/Avatar.552bbba3ddd6b91d03eb.png",
     "static/media/logo.png": "/Portfolio_Mukilan/static/media/logo.b684df917e83e192491c.png",
+    "static/media/contact.png": "/Portfolio_Mukilan/static/media/contact.520e72a12185effaa396.png",
+    "static/media/projects.png": "/Portfolio_Mukilan/static/media/projects.9594f47e4e736b386f1d.png",
+    "static/media/About.png": "/Portfolio_Mukilan/static/media/About.f8f9b4a08455687700f2.png",
     "index.html": "/Portfolio_Mukilan/index.html",
-    "main.611f5aef.css.map": "/Portfolio_Mukilan/static/css/main.611f5aef.css.map",
-    "main.66e22f91.js.map": "/Portfolio_Mukilan/static/js/main.66e22f91.js.map"
+    "main.c3c869b9.css.map": "/Portfolio_Mukilan/static/css/main.c3c869b9.css.map",
+    "main.ff10a9ec.js.map": "/Portfolio_Mukilan/static/js/main.ff10a9ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.611f5aef.css",
-    "static/js/main.66e22f91.js"
+    "static/css/main.c3c869b9.css",
+    "static/js/main.ff10a9ec.js"
   ]
 }
