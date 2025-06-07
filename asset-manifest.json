@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Portfolio_Mukilan/static/css/main.611f5aef.css",
+    "main.js": "/Portfolio_Mukilan/static/js/main.66e22f91.js",
+    "static/media/logo.png": "/Portfolio_Mukilan/static/media/logo.b684df917e83e192491c.png",
+    "index.html": "/Portfolio_Mukilan/index.html",
+    "main.611f5aef.css.map": "/Portfolio_Mukilan/static/css/main.611f5aef.css.map",
+    "main.66e22f91.js.map": "/Portfolio_Mukilan/static/js/main.66e22f91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.611f5aef.css",
+    "static/js/main.66e22f91.js"
+  ]
+}
