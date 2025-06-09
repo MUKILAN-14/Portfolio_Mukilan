@@ -10,7 +10,7 @@ function App() {
   const [showSplash, setShowSplash] = useState(true);
 
   return (
-    <div className="m-4">
+    <div className="m-5 rounded-3xl shadow-fancy">
       {showSplash ? (
         <SplashScreen onComplete={() => setShowSplash(false)} />
       ) : (
