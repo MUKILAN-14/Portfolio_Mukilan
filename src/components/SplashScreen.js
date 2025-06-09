@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from '../Assets/logo.png';
+import { Link } from "react-router-dom";
 
 export default function SplashScreen({ onComplete }) {
   const [animate, setAnimate] = useState(false);
@@ -32,11 +33,13 @@ export default function SplashScreen({ onComplete }) {
             ease-in-out hover:scale-125 hover:shadow-white shadow-fancy 
             ${spin ? 'animate-rotate-once' : ''}`}
           >
+            <Link to='/'>
             <img
               src={logo}
               alt="Logo"
               className="w-full h-full object-contain rounded-full"
             />
+            </Link>
           </div>
         </div>
         </div>
