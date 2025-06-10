@@ -45,7 +45,7 @@ export default function Contact() {
           <p className="text-lg font-medium">GitHub Profile</p>
         </a>
         <a
-          href="/Mukilan_Resume.pdf"
+          href={`${process.env.PUBLIC_URL}/MUKILAN_RESUME.pdf`}
           download
           className="bg-white/10 backdrop-blur-sm p-6 rounded-xl shadow-md hover:scale-105 transition transform flex flex-col items-center"
         >
