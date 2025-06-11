@@ -6,7 +6,7 @@ export default function Contact() {
       
       {/* Contact Title */}
       <h1 className="text-4xl font-bold mb-4">📒 Get in Touch</h1>
-
+    <br></br>
       {/* Contact Subtitle */}
       <p className="text-lg max-w-2xl text-white/90 mb-10 bg-white/10 backdrop-blur-sm p-4 rounded-xl shadow-md">
         I'd love to hear from you! Whether it's about collaboration, feedback, or just a hello — feel free to reach out via email or connect on my socials 👇
